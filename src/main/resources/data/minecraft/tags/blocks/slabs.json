@@ -1,0 +1,10 @@
+{
+  "replace": false,
+  "values": [
+    "mortar:calcite_slab",
+    "mortar:polished_calcite_slab",
+    "mortar:tuff_slab",
+    "mortar:polished_tuff_slab",
+    "mortar:quartz_brick_slab"
+  ]
+}

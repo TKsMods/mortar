@@ -1,0 +1,32 @@
+{
+    "parent": "minecraft:recipes/root",
+    "criteria": {
+        "has_required_block": {
+            "conditions": {
+                "items": [
+                    {
+                        "items": [
+                            "minecraft:calcite"
+                        ]
+                    }
+                ]
+            },
+            "trigger": "minecraft:inventory_changed"
+        }
+    },
+    "requirements": [
+        [
+            "has_required_block"
+        ]
+    ],
+    "rewards": {
+        "recipes": [
+            "mortar:calcite_slab",
+            "mortar:calcite_stairs",
+            "mortar:calcite_wall",
+            "mortar:calcite_slab_from_calcite_stonecutting",
+            "mortar:calcite_stairs_from_calcite_stonecutting",
+            "mortar:calcite_wall_from_calcite_stonecutting"
+        ]
+    }
+}

@@ -1,0 +1,30 @@
+{
+    "parent": "minecraft:recipes/root",
+    "criteria": {
+        "has_required_block": {
+            "conditions": {
+                "items": [
+                    {
+                        "items": [
+                            "minecraft:cut_sandstone"
+                        ]
+                    }
+                ]
+            },
+            "trigger": "minecraft:inventory_changed"
+        }
+    },
+    "requirements": [
+        [
+            "has_required_block"
+        ]
+    ],
+    "rewards": {
+        "recipes": [
+            "mortar:cut_sandstone_stairs",
+            "mortar:cut_sandstone_stairs_from_cut_sandstone_stonecutting",
+            "mortar:cut_sandstone_wall",
+            "mortar:cut_sandstone_wall_from_cut_sandstone_stonecutting"
+        ]
+    }
+}
