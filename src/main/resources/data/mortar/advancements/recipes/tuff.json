@@ -24,9 +24,11 @@
             "mortar:tuff_slab",
             "mortar:tuff_stairs",
             "mortar:tuff_wall",
+			"mortar:polished_tuff",
             "mortar:tuff_slab_from_tuff_stonecutting",
             "mortar:tuff_stairs_from_tuff_stonecutting",
-            "mortar:tuff_wall_from_tuff_stonecutting"
+            "mortar:tuff_wall_from_tuff_stonecutting",
+			"mortar:polished_tuff_from_tuff_stonecutting"
         ]
     }
 }

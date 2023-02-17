@@ -24,9 +24,11 @@
             "mortar:calcite_slab",
             "mortar:calcite_stairs",
             "mortar:calcite_wall",
+			"mortar:polished_calcite",
             "mortar:calcite_slab_from_calcite_stonecutting",
             "mortar:calcite_stairs_from_calcite_stonecutting",
-            "mortar:calcite_wall_from_calcite_stonecutting"
+            "mortar:calcite_wall_from_calcite_stonecutting",
+			"mortar:polished_calcite_from_calcite_stonecutting"
         ]
     }
 }
