@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "id": "mortar",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "name": "Mortar",
   "description": "Filling in the gaps of missing slabs, stairs, and walls in the vanilla game!",
   "authors": [
