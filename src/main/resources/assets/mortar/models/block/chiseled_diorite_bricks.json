@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_column",
+  "textures": {
+    "end": "mortar:block/chiseled_diorite_bricks_top",
+    "side": "mortar:block/chiseled_diorite_bricks"
+  }
+}

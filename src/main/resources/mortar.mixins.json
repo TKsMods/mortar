@@ -1,0 +1,9 @@
+{
+  "minVersion": "0.8",
+  "package": "dev.worldgen.mortar.mixin",
+  "mixins": [
+    "ConduitBlockEntityMixin",
+    "processor.BlockAgeMixin",
+    "structure.OceanRuinMixin"
+  ]
+}

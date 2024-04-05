@@ -21,12 +21,14 @@
     ],
     "rewards": {
         "recipes": [
-            "mortar:polished_calcite_slab",
-            "mortar:polished_calcite_stairs",
-            "mortar:polished_calcite_wall",
-            "mortar:polished_calcite_slab_from_polished_calcite_stonecutting",
-            "mortar:polished_calcite_stairs_from_polished_calcite_stonecutting",
-            "mortar:polished_calcite_wall_from_polished_calcite_stonecutting"
+            "mortar:crafting_table/polished_calcite",
+            "mortar:crafting_table/polished_calcite_slab",
+            "mortar:crafting_table/polished_calcite_stairs",
+            "mortar:crafting_table/polished_calcite_wall",
+            "mortar:stonecutter/polished_calcite",
+            "mortar:stonecutter/polished_calcite_slab",
+            "mortar:stonecutter/polished_calcite_stairs",
+            "mortar:stonecutter/polished_calcite_wall"
         ]
     }
 }

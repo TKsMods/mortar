@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "mortar:chiseled_mossy_stone_bricks",
+  "category": "building",
+  "key": {
+    "#": {
+      "item": "minecraft:mossy_stone_brick_slab"
+    }
+  },
+  "pattern": [
+    "#",
+    "#"
+  ],
+  "result": {
+    "item": "mortar:chiseled_mossy_stone_bricks"
+  }
+}

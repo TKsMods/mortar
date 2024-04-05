@@ -21,8 +21,8 @@
     ],
     "rewards": {
         "recipes": [
-            "mortar:stone_wall",
-            "mortar:stone_wall_from_stone_stonecutting"
+            "mortar:crafting_table/stone_wall",
+            "mortar:stonecutter/stone_wall"
         ]
     }
 }

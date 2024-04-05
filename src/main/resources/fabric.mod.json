@@ -1,36 +1,31 @@
 {
   "schemaVersion": 1,
   "id": "mortar",
-  "version": "1.0.2",
+  "version": "2.0.0",
   "name": "Mortar",
-  "description": "Filling in the gaps of missing slabs, stairs, and walls in the vanilla game!",
+  "description": "Adding missing vanilla block variants and smoothly integrating them into the game!",
   "authors": [
     "Apollo",
-    "Oranamous"
+    "DawnKiro"
   ],
   "contact": {
     "homepage": "https://modrinth.com/mod/mortar"
   },
-  "license": "ARR",
+  "license": "MIT",
   "icon": "assets/mortar/icon.png",
   "environment": "*",
   "entrypoints": {
     "main": [
-      "apollo.mortar.MortarMod"
+      "dev.worldgen.mortar.Mortar"
     ]
   },
-  "mixins": [],
+  "mixins": [
+    "mortar.mixins.json"
+  ],
   "depends": {
-    "fabricloader": ">=0.14.12",
-    "minecraft": ">=1.19.3",
+    "fabricloader": ">=0.15",
+    "minecraft": ">=1.20.3",
     "java": ">=17",
     "fabric-api": "*"
-  },
-  "custom": {
-    "modmenu": {
-      "links": {
-        "modmenu.discord": "https://discord.com/invite/vFz67Pvceu"
-      }
-    }
   }
 }

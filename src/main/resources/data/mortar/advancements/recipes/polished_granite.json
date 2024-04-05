@@ -21,8 +21,10 @@
     ],
     "rewards": {
         "recipes": [
-            "mortar:polished_granite_wall",
-            "mortar:polished_granite_wall_from_polished_granite_stonecutting"
+            "mortar:crafting_table/polished_granite_wall",
+            "mortar:crafting_table/granite_bricks",
+            "mortar:stonecutter/polished_granite_wall",
+            "mortar:stonecutter/granite_bricks"
         ]
     }
 }

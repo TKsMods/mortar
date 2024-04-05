@@ -21,10 +21,10 @@
     ],
     "rewards": {
         "recipes": [
-            "mortar:cut_sandstone_stairs",
-            "mortar:cut_sandstone_stairs_from_cut_sandstone_stonecutting",
-            "mortar:cut_sandstone_wall",
-            "mortar:cut_sandstone_wall_from_cut_sandstone_stonecutting"
+            "mortar:crafting_table/cut_sandstone_stairs",
+            "mortar:crafting_table/cut_sandstone_wall",
+            "mortar:stonecutter/cut_sandstone_stairs",
+            "mortar:stonecutter/cut_sandstone_wall"
         ]
     }
 }

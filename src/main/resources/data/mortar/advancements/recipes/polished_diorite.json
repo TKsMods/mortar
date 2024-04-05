@@ -21,8 +21,10 @@
     ],
     "rewards": {
         "recipes": [
-            "mortar:polished_diorite_wall",
-            "mortar:polished_diorite_wall_from_polished_diorite_stonecutting"
+            "mortar:crafting_table/polished_diorite_wall",
+            "mortar:crafting_table/diorite_bricks",
+            "mortar:stonecutter/polished_diorite_wall",
+            "mortar:stonecutter/diorite_bricks"
         ]
     }
 }

@@ -21,8 +21,10 @@
     ],
     "rewards": {
         "recipes": [
-            "mortar:polished_andesite_wall",
-            "mortar:polished_andesite_wall_from_polished_andesite_stonecutting"
+            "mortar:crafting_table/polished_andesite_wall",
+            "mortar:crafting_table/andesite_bricks",
+            "mortar:stonecutter/polished_andesite_wall",
+            "mortar:stonecutter/andesite_bricks"
         ]
     }
 }

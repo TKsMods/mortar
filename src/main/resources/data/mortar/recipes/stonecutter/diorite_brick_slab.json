@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 2,
+  "ingredient": [
+    {
+      "item": "minecraft:diorite"
+    },
+    {
+      "item": "minecraft:polished_diorite"
+    },
+    {
+      "item": "mortar:diorite_bricks"
+    }
+  ],
+  "result": "mortar:diorite_brick_slab"
+}

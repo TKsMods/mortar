@@ -21,8 +21,8 @@
     ],
     "rewards": {
         "recipes": [
-            "mortar:dark_prismarine_wall",
-            "mortar:dark_prismarine_wall_from_dark_prismarine_stonecutting"
+            "mortar:crafting_table/dark_prismarine_wall",
+            "mortar:stonecutter/dark_prismarine_wall"
         ]
     }
 }

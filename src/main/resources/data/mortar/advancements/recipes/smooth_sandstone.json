@@ -21,8 +21,8 @@
     ],
     "rewards": {
         "recipes": [
-            "mortar:smooth_sandstone_wall",
-            "mortar:smooth_sandstone_wall_from_smooth_sandstone_stonecutting"
+            "mortar:crafting_table/smooth_sandstone_wall",
+            "mortar:stonecutter/smooth_sandstone_wall"
         ]
     }
 }

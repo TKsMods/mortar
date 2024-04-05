@@ -21,8 +21,8 @@
     ],
     "rewards": {
         "recipes": [
-            "mortar:quartz_wall",
-            "mortar:quartz_wall_from_quartz_stonecutting"
+            "mortar:crafting_table/quartz_wall",
+            "mortar:stonecutter/quartz_wall"
         ]
     }
 }

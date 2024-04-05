@@ -21,10 +21,10 @@
     ],
     "rewards": {
         "recipes": [
-            "mortar:smooth_stone_stairs",
-            "mortar:smooth_stone_stairs_from_smooth_stone_stonecutting",
-            "mortar:smooth_stone_wall",
-            "mortar:smooth_stone_wall_from_smooth_stone_stonecutting"
+            "mortar:crafting_table/smooth_stone_stairs",
+            "mortar:crafting_table/smooth_stone_wall",
+            "mortar:stonecutter/smooth_stone_stairs",
+            "mortar:stonecutter/smooth_stone_wall"
         ]
     }
 }

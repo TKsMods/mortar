@@ -21,8 +21,8 @@
     ],
     "rewards": {
         "recipes": [
-            "mortar:purpur_wall",
-            "mortar:purpur_wall_from_purpur_stonecutting"
+            "mortar:crafting_table/purpur_wall",
+            "mortar:stonecutter/purpur_wall"
         ]
     }
 }
