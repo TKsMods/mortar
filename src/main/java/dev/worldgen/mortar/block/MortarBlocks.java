@@ -123,12 +123,12 @@ public class MortarBlocks {
 
     private static Block registerBlock(String name, Block block, Block blockBefore) {
         registerBlockItem(name, block, blockBefore);
-        return Registry.register(Registries.BLOCK, new Identifier(Mortar.MOD_ID, name), block);
+        return Registry.register(Registries.BLOCK, Identifier.of(Mortar.MOD_ID, name), block);
     }
 
     private static void registerBlockItem(String name, Block block, Block blockBefore) {
         addBlockBefore(block, blockBefore);
-        Registry.register(Registries.ITEM, new Identifier(Mortar.MOD_ID, name), new BlockItem(block, new Item.Settings()));
+        Registry.register(Registries.ITEM, Identifier.of(Mortar.MOD_ID, name), new BlockItem(block, new Item.Settings()));
     }
 
     private static AbstractBlock.Settings getSettings(Block copiedBlock, @Nullable BlockSoundGroup soundGroup) {
