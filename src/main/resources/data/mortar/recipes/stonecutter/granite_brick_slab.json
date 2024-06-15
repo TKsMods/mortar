@@ -1,6 +1,5 @@
 {
   "type": "minecraft:stonecutting",
-  "count": 2,
   "ingredient": [
     {
       "item": "minecraft:granite"
@@ -12,5 +11,8 @@
       "item": "mortar:granite_bricks"
     }
   ],
-  "result": "mortar:granite_brick_slab"
+  "result": {
+    "count": 2,
+    "id": "mortar:granite_brick_slab"
+  }
 }

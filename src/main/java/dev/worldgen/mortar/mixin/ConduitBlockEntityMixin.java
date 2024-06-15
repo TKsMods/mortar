@@ -23,6 +23,6 @@ public class ConduitBlockEntityMixin {
     static {
         List<Block> conduitBlocks = new ArrayList<>(Arrays.stream(ACTIVATING_BLOCKS).toList());
         conduitBlocks.add(MortarBlocks.CHISELED_PRISMARINE_BRICKS);
-        ACTIVATING_BLOCKS = conduitBlocks.toArray(new  Block[0]);
+        ACTIVATING_BLOCKS = conduitBlocks.toArray(new Block[0]);
     }
 }

@@ -1,8 +1,9 @@
 {
   "type": "minecraft:stonecutting",
-  "count": 1,
   "ingredient": {
     "item": "minecraft:red_nether_bricks"
   },
-  "result": "mortar:chiseled_red_nether_bricks"
+  "result": {
+    "id": "mortar:chiseled_red_nether_bricks"
+  }
 }

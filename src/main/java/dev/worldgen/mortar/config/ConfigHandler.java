@@ -44,14 +44,8 @@ public class ConfigHandler {
 
     private static void writeToFile(boolean structureIntegrations) {
         try(BufferedWriter writer = Files.newBufferedWriter(CONFIG_PATH)) {
-            var dataResult = CODEC.encodeStart(JsonOps.INSTANCE, structureIntegrations).get();
-            dataResult.ifRight(consumer -> {
-                throw new RuntimeException("Failed to write config file");
-            });
-            if (!(dataResult.left().get() instanceof JsonObject jsonObject)) {
-                throw new IllegalStateException("A critical error occurred whilst parsing config file");
-            }
-            writer.write(GSON.toJson(jsonObject));
+            JsonElement json = CODEC.encodeStart(JsonOps.INSTANCE, structureIntegrations).getOrThrow();
+            writer.write(GSON.toJson(json));
         } catch (Exception e) {
             throw new RuntimeException(e);
         }

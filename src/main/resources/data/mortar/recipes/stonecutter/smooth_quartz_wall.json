@@ -1,8 +1,9 @@
 {
   "type": "minecraft:stonecutting",
-  "count": 1,
   "ingredient": {
     "item": "minecraft:smooth_quartz"
   },
-  "result": "mortar:smooth_quartz_wall"
+  "result": {
+    "id": "mortar:smooth_quartz_wall"
+  }
 }

@@ -1,6 +1,5 @@
 {
   "type": "minecraft:stonecutting",
-  "count": 1,
   "ingredient": [
     {
       "item": "minecraft:diorite"
@@ -12,5 +11,7 @@
       "item": "mortar:diorite_bricks"
     }
   ],
-  "result": "mortar:diorite_brick_wall"
+  "result": {
+    "id": "mortar:diorite_brick_wall"
+  }
 }

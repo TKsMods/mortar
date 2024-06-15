@@ -1,8 +1,9 @@
 {
   "type": "minecraft:stonecutting",
-  "count": 1,
   "ingredient": {
     "item": "minecraft:purpur_block"
   },
-  "result": "mortar:chiseled_purpur_block"
+  "result": {
+    "id": "mortar:chiseled_purpur_block"
+  }
 }

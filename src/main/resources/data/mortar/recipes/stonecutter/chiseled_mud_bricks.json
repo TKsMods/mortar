@@ -3,6 +3,7 @@
   "ingredient": {
     "item": "minecraft:mud_bricks"
   },
-  "result": "mortar:chiseled_mud_bricks",
-  "count": 1
+  "result": {
+    "id": "mortar:chiseled_mud_bricks"
+  }
 }

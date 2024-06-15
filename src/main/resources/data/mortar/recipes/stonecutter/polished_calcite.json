@@ -1,8 +1,9 @@
 {
   "type": "minecraft:stonecutting",
-  "count": 1,
   "ingredient": {
     "item": "minecraft:calcite"
   },
-  "result": "mortar:polished_calcite"
+  "result": {
+    "id": "mortar:polished_calcite"
+  }
 }

@@ -1,6 +1,5 @@
 {
   "type": "minecraft:stonecutting",
-  "count": 1,
   "ingredient": [
     {
       "item": "minecraft:andesite"
@@ -12,5 +11,7 @@
       "item": "mortar:andesite_bricks"
     }
   ],
-  "result": "mortar:andesite_brick_stairs"
+  "result": {
+    "id": "mortar:andesite_brick_stairs"
+  }
 }

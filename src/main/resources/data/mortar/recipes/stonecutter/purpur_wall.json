@@ -1,8 +1,9 @@
 {
   "type": "minecraft:stonecutting",
-  "count": 1,
   "ingredient": {
     "item": "minecraft:purpur_block"
   },
-  "result": "mortar:purpur_wall"
+  "result": {
+    "id": "mortar:purpur_wall"
+  }
 }

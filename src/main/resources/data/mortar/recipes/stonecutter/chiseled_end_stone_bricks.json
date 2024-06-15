@@ -8,6 +8,7 @@
       "item": "minecraft:end_stone"
     }
   ],
-  "result": "mortar:chiseled_end_stone_bricks",
-  "count": 1
+  "result": {
+    "id": "mortar:chiseled_end_stone_bricks"
+  }
 }
