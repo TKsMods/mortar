@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "id": "mortar",
-  "version": "2.0.0",
+  "version": "2.0.3",
   "name": "Mortar",
   "description": "Adding missing vanilla block variants and smoothly integrating them into the game!",
   "authors": [
